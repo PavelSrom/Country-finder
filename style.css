@@ -1,0 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.list-group-item {
+  -webkit-transition: background-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
+}
+
+.fa-chevron-down {
+  font-size: 28px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.countryContainer {
+  display: none;
+}
+
+.countryBanner {
+  cursor: pointer;
+}
+
+.countryContent {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  height: 0;
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */
